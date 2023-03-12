@@ -1,0 +1,202 @@
+#ana {
+	
+	margin-left:auto;
+	margin-right:auto;
+}
+#ust {
+	height: 60px;
+	width: 100%;
+	background: linear-gradient(#8B9492,#323731);
+    background-image: linear-gradient(top,#8B9492,#323731);
+
+}
+#baslik {
+	height: 240px;
+	width: 100%;
+}
+#icerik
+{
+}
+#sol {
+	float: left;
+	width: 200px;
+	background: linear-gradient(#3b3434,black);
+    background-image: linear-gradient(right,#3b3434,black);
+    height:500px;
+    
+}
+#icerigim{
+    border:1px solid darkgrey;
+    background-color:#efefef;
+    
+}
+#renk{
+    background-color:#efefef;
+}
+#orta {
+	float: left;
+	width: 574px;
+	margin-left:30px;
+	margin-right:20px;
+    
+}
+#sag {
+	float: left;
+	height: 500px;
+	width: 200px;
+    background: linear-gradient(#3b3434,black);
+    background-image: linear-gradient(right,#3b3434,black);
+}
+#alt {
+	clear: both;
+	
+	background-image: url(resimlerim/f3.png);
+}
+
+
+
+body {
+   /* background: linear-gradient(#8B9492,#221c1c);*/
+	font-family:'Oswald', sans-serif;
+	font-size:20px;
+	color:black;
+    background-color:lightgrey;
+}
+.btnana1
+{
+    background-image:url(resimlerim/logo55.png);
+}
+.btnana1:hover
+{
+    background-image:url(resimlerim/n.png);
+}
+.btnana2
+{
+    background-image:url(resimlerim/anasayfa.png);
+}
+.btnana2:hover
+{
+    background-image:url(resimlerim/anasayfa2.png);
+}
+.btnhakkimizda
+{
+    background-image:url(resimlerim/hakkimizda.png);
+}
+.btnhakkimizda:hover
+{
+    background-image:url(resimlerim/hakkimizda2.png);
+}
+.btniletisim
+{
+    background-image:url(resimlerim/iletisim.png);
+}
+.btniletisim:hover
+{
+    background-image:url(resimlerim/iletisim2.png);
+}
+.uyeol
+{
+    background-image:url(resimlerim/uyeol.png);
+}
+.uyeol:hover
+{
+    background-image:url(resimlerim/uyeol2.png);
+}
+.restaurantlar
+{
+    background-image:url(resimlerim/restaurantlar.png);
+}
+.restaurantlar:hover
+{
+    background-image:url(resimlerim/restaurantlar2.png);
+}
+.yemek
+{
+    background-image:url(resimlerim/yemek.png);
+}
+.yemek:hover
+{
+    background-image:url(resimlerim/yemek2.png);
+}
+.kafe
+{
+    background-image:url(resimlerim/kafe.png);
+}
+.kafe:hover
+{
+    background-image:url(resimlerim/kafe2.png);
+}
+.sehirler
+{
+    background-image:url(resimlerim/sehirler.png);
+}
+.sehirler:hover
+{
+    background-image:url(resimlerim/sehirler2.png);
+}
+.paylas
+{
+    background-image:url(resimlerim/paylas.png);
+}
+.paylas:hover
+{
+    background-image:url(resimlerim/paylas2.png);
+}
+.uyegiris
+{
+    background-image:url(resimlerim/uyegiris.png);
+}
+.uyegiris:hover
+{
+    background-image:url(resimlerim/uyegiris2.png);
+}
+.cikis
+{
+    background-image:url(resimlerim/cikis.png);
+}
+.cikis:hover
+{
+    background-image:url(resimlerim/cikis2.png);
+}
+.face
+{
+    background-image:url(resimlerim/face.jpg);
+    height:25px;
+    width:25px;
+}
+.twitter
+{
+    background-image:url(resimlerim/indir.png);
+}
+.butonlarimgenel {
+	font-size:12px;
+	font-family:Arial;
+	font-weight:normal;
+	-moz-border-radius:17px;
+	-webkit-border-radius:17px;
+	border-radius:17px;
+	border:1px solid #d83526;
+	padding:9px 40px;
+	text-decoration:none;
+	background:-moz-linear-gradient( center top, #fe1a00 43%, #ce0100 62% );
+	background:-ms-linear-gradient( top, #fe1a00 43%, #ce0100 62% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100');
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(43%, #fe1a00), color-stop(62%, #ce0100) );
+	background-color:#fe1a00;
+	color:#ffffff;
+	display:inline-block;
+	text-shadow:1px 1px 0px #b23e35;
+ 	-webkit-box-shadow:inset 1px 1px 0px 0px #f29c93;
+ 	-moz-box-shadow:inset 1px 1px 0px 0px #f29c93;
+ 	box-shadow:inset 1px 1px 0px 0px #f29c93;
+}.butonlarimgenel:hover {
+	background:-moz-linear-gradient( center top, #ce0100 43%, #fe1a00 62% );
+	background:-ms-linear-gradient( top, #ce0100 43%, #fe1a00 62% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#fe1a00');
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(43%, #ce0100), color-stop(62%, #fe1a00) );
+	background-color:#ce0100;
+}.butonlarimgenel:active {
+	position:relative;
+	top:1px;
+}
+

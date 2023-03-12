@@ -1,0 +1,158 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ben.master.cs" Inherits="ben" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="shortcut icon" href="resimlerim/icon.png" type="image/png">
+    <title>Y&K YemekKafe.com</title>
+     <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    
+    <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      
+  }
+        .auto-style1 {
+            width: 142px;
+        }
+        </style>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+    
+<link href="benim.css" rel="stylesheet" />
+<body>
+    <br />
+    <div class="container-fluid">
+    <form id="form1" runat="server">
+<div class="container-fluid">
+    
+        <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a  class="navbar-brand" href="oneriler.aspx">Y&K YemekKafe.com</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="default.aspx">Anasayfa</a></li>
+        <li><a href="hakkimizda.aspx">Hakkımızda</a></li>
+        <li><a href="iletisim.aspx">İletişim</a></li>
+          
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+          <li><asp:Label ID="Label1" runat="server" ></asp:Label></li>
+          <li><asp:Label ID="Label2" runat="server" ></asp:Label></li>
+          
+        <li><a href="uyeol.aspx"><span class="glyphicon glyphicon-user"></span> Üye Ol</a></li>
+        <li><a href="uyegiris.aspx"><span class="glyphicon glyphicon-log-in"></span> Giriş Yap</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+    
+   
+        
+      <div class="container-fluid">
+  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img height="700" src="resimlerim/baner.png" />
+      </div>
+
+      <div class="item">
+        <img height="700" src="resimlerim/BAN2.png" />
+      </div>
+    
+      <div class="item">
+        <img height="700" src="resimlerim/BAN3.png" / >
+      </div>
+
+      
+    </div>
+
+    <!-- Left and right controls -->
+    
+ 
+          
+</div>
+
+    </div>
+
+    <div class="container-fluid">
+       <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    
+    <div>
+      <ul class="nav navbar-nav">
+        <li><a href="restaurantlar.aspx">Restaurantlar</a></li>
+        <li><a href="yemek.aspx">Yemek</a></li>
+        <li><a href="kafe.aspx">Kafe&Bistro</a></li>
+        <li><a href="sehirler.aspx">Şehirler</a></li>
+        <li><a href="paylas.aspx">Paylaş</a></li>
+       <ul class="nav navbar-nav navbar-right">
+        <li><a href="cikis.aspx"><span class="glyphicon glyphicon-log-out"></span>Çıkış</a></li>
+      </ul>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  </div>  
+    
+    <div class="container-fluid">
+    
+    <div align="center" class="container-fluid">
+
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+   
+
+    </div>
+
+  </div><br /><br />
+    <div id="renk"  class="container-fluid"> 
+        
+                Online:  <%= Application["online"] %> /
+        Toplam: <%= toplam %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <p class="bg-primary">® Desıgn by IBRAHIM BEKTASOGLU</p>
+                
+        </div>
+
+    
+    
+</div>
+   
+
+    </form>
+   
+    <a href="#" style="position:fixed;right:30px;bottom: 40px; "><img src="resimlerim/top.png" width="30" height="30" /></a>
+
+</body>
+</html>

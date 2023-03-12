@@ -1,0 +1,84 @@
+﻿#ana {
+	width: 1024px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#baslik {
+	height: 110px;
+	width: 100%;
+    background-color:lightgrey;
+    color:red;
+}
+#icerik
+{
+}
+#ust {
+	height: 60px;
+	width: 100%;
+    background-color:white;
+}
+#orta {
+	float: left;
+	height:430px;
+	width: 100%;
+	overflow:auto;
+	background-color:lightgray;
+}
+
+#alt {
+	clear: both;
+	height: 23px;
+	width: 100%;
+	font-family: Verdana;
+	color: white;
+	background-color:dimgray;
+}
+#usttablo {
+	background-color:dimgray;
+    color:white;
+    height: 23px;
+    width: 974px;
+    font-family:Verdana;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#orta2 {
+	background-color:white;
+    height: 350px;
+    width: 974px;
+    font-family:Verdana;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top:25px;
+    
+}
+body {
+    background-color:antiquewhite;
+   
+}
+.adminpaylasim
+{
+    background-image:url(resimlerim/paylasim.png);
+}
+.adminkullanicilar
+{
+    background-image:url(resimlerim/kullanicilar.png);
+}
+.adminmesajlar
+{
+    background-image:url(resimlerim/mesajlar.png);
+}
+.adminonerilen
+{
+    background-image:url(resimlerim/yorum.png);
+}
+.adminziyaret
+{
+    background-image:url(resimlerim/ziyaret.png);
+}
+.adminsifre
+{
+    background-image:url(resimlerim/panelsifre.png);
+}
+
