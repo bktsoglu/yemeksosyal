@@ -49,7 +49,7 @@ public partial class uyeol : System.Web.UI.Page
                 sc.Host = "smtp.gmail.com";
                 sc.EnableSsl = true;
 
-                sc.Credentials = new NetworkCredential("i.bektas93@gmail.com", "ismail12");
+                sc.Credentials = new NetworkCredential("i.bektas93@gmail.com", "*");
 
                 MailMessage mail = new MailMessage();
 
